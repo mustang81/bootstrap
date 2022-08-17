@@ -90,45 +90,46 @@
         <!-- FORM -->
         <form>
             <!-- TEXT FIELD GROUPS -->
-            <div>
-                <label for="name">Name</label>
-                <input type="text" id="name" placeholder="Enter name">
+            <div class="mb-3">  <!--instead of form-group class-->
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Enter name">
             </div>
-            <div>
-                <label for="email">Email address</label>
-                <input type="email" id="email" placeholder="Enter email">
+            <div class="mb-3">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" id="email" class="form-control form-control-lg" placeholder="Enter email">
+                <small class="form-text text-muted">Your Email will never be shared to any one!!!</small>
             </div>
-            <div>
-                <label for="company">Company</label>
-                <input type="text" id="company" placeholder="Enter company name">
+            <div class="mb-3">
+                <label for="company" class="form-label">Company</label>
+                <input type="text" id="company" class="form-control form-control-sm" placeholder="Enter company name">
             </div>
-            <div>
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
+            <div class="mb-3">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" id="password" class="form-control" placeholder="Password">
             </div>
             <!-- SELECT -->
-            <div>
-                <label for="gender">Gender</label>
-                <select id="gender">
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender</label>
+                <select id="gender" class="form-select"> <!--insead of form-group in bs 4-->
                     <option>Male</option>
                     <option>Female</option>
                 </select>
             </div>
             <!-- TEXTAREA -->
-            <div>
-                <label for="message">Message</label>
-                <textarea id="message" rows="3"></textarea>
+            <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" rows="3" class="form-control"></textarea>
             </div>
             <!-- FILE INPUT -->
-            <div>
-                <label for="file">File input</label>
-                <input type="file" id="file">
-                <small id="fileHelp">Max 3mb size</small>
+            <div class="mb-3">
+                <label for="file" class="form-label">File input</label>
+                <input type="file" id="file" class="form-control">
+                <small id="fileHelp" class="form-text text-muted">Max 3mb size</small>
             </div>
             <!-- CUSTOM FILE INPUT -->
-            <div>
-                <input type="file" id="myfile">
-                <label for="myfile">Choose file</label>
+            <div class="custom-file">
+                <input type="file" id="myfile" class="custom-file-input">
+                <label for="myfile" class="custom-file-label">Choose file</label>
             </div>
             <br>
             <br>
