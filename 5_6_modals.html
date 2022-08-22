@@ -89,22 +89,23 @@
     <!--#################START HERE#####################-->
 
     <!-- MODAL TRIGGER -->
-    <button>Launch Modal</button>
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Launch Modal</button>
 
     <!-- MODAL -->
-    <div>
-      <div>
-        <div>
-          <div>
+    <div class="modal fade" id="exampleModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
             <h5>Modal Title</h5>
-            <button>&times;</button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
           </div>
-          <div>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus unde veniam harum magnam molestias dignissimos omnis
-            architecto, quod, obcaecati dolorum debitis dolore porro qui, iusto quo accusantium voluptates pariatur illo.
-          </div>
-          <div>
-            <button>Close</button>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="username">User Name</label>
+                <input type="text" name="username" class="form-control" placeholder="User Name">
+              </div>
+             </form> 
           </div>
         </div>
       </div>
@@ -114,9 +115,31 @@
     <br>
 
     <!-- LOGIN MODAL TRIGGER -->
+    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModel">Launch Modal</button>
+
 
 
     <!-- LOGIN MODAL -->
+    <div class="modal fade" id="loginModell">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5>Modal Title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+          </div>
+          <div class="modal-body">
+            hello
+           <!-- <form>
+            <div class="form-group">
+              <label for="username">User Name</label>
+              <input type="text" name="username" class="form-control" placeholder="User Name">
+            </div>
+           </form> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
 
   </div>
 

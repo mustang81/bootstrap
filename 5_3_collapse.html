@@ -88,11 +88,11 @@
     <!--#####################START HERE###################-->
 
     <!-- BUTTON WITH COLLAPSE -->
-    <button>Read More</button>
+    <button class="btn btn-primary mb-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample">Read More</button>
 
-    <div>
-      <div>
-        <div>
+    <div class="collapse mb-5" id="collapseExample">
+      <div class="card">
+        <div class="card-body">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit eius libero quisquam nobis explicabo vel non necessitatibus
           ipsum doloribus cupiditate voluptate recusandae quo autem error debitis, sed, minima repellendus commodi.
         </div>
@@ -100,11 +100,11 @@
     </div>
 
     <!-- ACCORDION -->
-    <div>
-      <div>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
         <div>
-          <h5>
-            <a>
+          <h5 class="accordion-header" id="headingOne">
+            <a class="accordion-button" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
               Collapse One
             </a>
           </h5>
