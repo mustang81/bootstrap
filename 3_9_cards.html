@@ -89,8 +89,8 @@
         <!--#####################START HERE#####################-->
 
         <!-- BLOCK -->
-        <div>
-            <div>
+        <div class="card">
+            <div class="card-body">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, voluptate.
             </div>
         </div>
@@ -99,12 +99,12 @@
         <br>
 
         <!-- SIMPLE CARD -->
-        <div>
-            <div>
-                <h4>Card Title</h4>
-                <h6>Card subtitle</h6>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a href="#">Read More</a>
+        <div class="card" style="width:20rem;">
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <h6 class="card-subtitle text-muted">Card subtitle</h6>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <a class="btn btn-outline-primary" href="#">Read More</a>
             </div>
         </div>
 
@@ -112,12 +112,14 @@
         <br>
 
         <!-- CARD WITH IMAGE -->
-        <div>
-            <img src="https://source.unsplash.com/random/300x200" alt="">
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
-                <a href="#">Read More</a>
+        <div class="card" style="width:20rem">
+            <img class="card-img-top" src="https://source.unsplash.com/random/300x200" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quas.</p>
+                <div class="d-grid gap-2">
+                    <a class="btn btn-success" href="#">Read More</a>
+                </div>
             </div>
         </div>
 
@@ -125,14 +127,14 @@
         <br>
 
         <!-- CARD WITH HEADER -->
-        <div>
-            <div>
+        <div class="card" style="width:20rem;">
+            <div class="card-header">
                 My Card
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-danger" href="#">Read More</a>
             </div>
         </div>
 
@@ -140,16 +142,16 @@
         <br>
 
         <!-- HEADER, FOOTER, CENTERED -->
-        <div>
-            <div>
+        <div class="card text-center">
+            <div class="card-header">
                 My Card
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-dark" href="#">Read More</a>
             </div>
-            <div>
+            <div class="card-footer text-muted">
                 2 Days Ago
             </div>
         </div>
@@ -158,24 +160,24 @@
         <br>
 
         <!-- CARD WITH NAV -->
-        <div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="#">Active</a>
+        <div class="card">
+            <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Active</a>
                     </li>
-                    <li>
-                        <a href="#">Link</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
                     </li>
-                    <li>
-                        <a href="#">Disabled</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Disabled</a>
                     </li>
                 </ul>
             </div>
-            <div>
-                <h4>Card Title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
-                <a href="#">Read More</a>
+            <div class="card-body">
+                <h4 class="card-title">Card Title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, perspiciatis.</p>
+                <a class="btn btn-info" href="#">Read More</a>
             </div>
         </div>
 
@@ -183,14 +185,14 @@
         <br>
 
         <!-- IMAGE OVERLAYS -->
-        <div>
-            <img src="https://source.unsplash.com/random/1000x300" alt="">
-            <div>
-                <h4>Card title</h4>
-                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content
+        <div class="card">
+            <img class="card-img" src="https://source.unsplash.com/random/1000x300" alt="">
+            <div class="card-img-overlay text-light text-center">
+                <h4 class="card-title">Card title</h4>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content
                     is a little bit longer.</p>
-                <p>
-                    <small>Last updated 3 mins ago</small>
+                <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
                 </p>
             </div>
         </div>
@@ -200,64 +202,64 @@
         <br>
 
         <!-- BACKGROUND COLOR -->
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Primary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-primary text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Secondary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-secondary text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Success card title</h4>
-                <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <div class="card bg-success text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Danger card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-danger text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Warning card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-warning text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Info card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-info text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Light card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-light text-dark">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Dark card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card bg-dark text-white">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
@@ -265,11 +267,11 @@
         <br>
 
         <!-- CARD OUTLINE -->
-        <div>
-            <div>Header</div>
-            <div>
-                <h4>Primary card title</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        <div class="card border-primary">
+            
+            <div class="card-body">
+                <h4 class="card-title">Primary card title</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
             </div>
         </div>
 
@@ -383,16 +385,19 @@
         <br>
 
         <!-- CARD COLUMNS -->
-        <div>
-            <div>
-                <img src="https://source.unsplash.com/random/300x200" alt="">
-                <div>
-                    <h4>Card title that wraps to a new line</h4>
-                    <p>This is a longer card with supporting text below as a natural lead-in to additional content. This content
+        <div class="row" data-masonry='{"percentPosition": true }'>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/300x200" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Card title that wraps to a new line card 1</h4>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content
                         is a little bit longer.</p>
                 </div>
             </div>
-            <div>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card p-3">
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                     <footer>
@@ -403,20 +408,24 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <img src="https://source.unsplash.com/random/301x200" alt="">
-                <div>
-                    <h4>Card title</h4>
-                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/301x200" alt="">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>
-            <div>
-                <blockquote>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card bg-dark text-white p-3">
+                <blockquote class="card-bodyquote">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
-                    <footer>
+                    <footer class="blockquote-footer">
                         <small>
                             Someone famous in
                             <cite title="Source Title">Source Title</cite>
@@ -424,22 +433,28 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <div>
-                    <h4>Card title</h4>
-                    <p>This card has supporting text below as a natural lead-in to additional content.</p>
-                    <p>
-                        <small>Last updated 3 mins ago</small>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">
+                        <small class="text-muted">Last updated 3 mins ago</small>
                     </p>
                 </div>
             </div>
-            <div>
-                <img src="https://source.unsplash.com/random/302x200" alt="">
             </div>
-            <div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <img class="card-img-top img-fluid" src="https://source.unsplash.com/random/302x200" alt="">
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card">
                 <blockquote>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                    <footer>
+                    <footer class="blockquote-footer">
                         <small>
                             Someone famous in
                             <cite title="Source Title">Source Title</cite>
@@ -447,15 +462,18 @@
                     </footer>
                 </blockquote>
             </div>
-            <div>
-                <div>
-                    <h4>Card title</h4>
-                    <p>This is a wider card with supporting text below as a natural lead-in to additional content. This card
+            </div>
+            <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Card title</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card
                         has even longer content than the first to show that equal height action.</p>
-                    <p>
+                    <p class="card-text">
                         <small>Last updated 3 mins ago</small>
                     </p>
                 </div>
+            </div>
             </div>
         </div>
 
@@ -464,6 +482,7 @@
     <div style="margin-top:500px;"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
 </body>
 
 </html>
